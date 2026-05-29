@@ -33,7 +33,7 @@ export default function HomePage() {
 
   return (
     <div suppressHydrationWarning>
-      <section className="w-full">
+      <section className="w-full m-0 p-0">
         <VideoSection />
       </section>
 

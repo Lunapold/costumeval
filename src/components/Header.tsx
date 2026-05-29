@@ -19,12 +19,12 @@ export default function Header() {
               <img
                 src="/images/Logo.webp"
                 alt="AbrazoGigante"
-                className="h-14 w-auto"
+                className="h-14 w-auto max-[425px]:h-9"
               />
               <img
                 src="/images/Logo_mini.webp"
                 alt="AbrazoGigante"
-                className="h-10 w-auto"
+                className="h-10 w-auto max-[425px]:h-6"
               />
             </Link>
           </div>
