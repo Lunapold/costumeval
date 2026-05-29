@@ -9,7 +9,7 @@ const videoSchema = {
   '@type': 'VideoObject',
   name: 'Disfraces hinchables AbrazoGigante en Valencia',
   description: 'Alquiler de disfraces hinchables en Valencia y Sagunto.',
-  thumbnailUrl: 'https://abrazogigante.es/videos/1.jpg',
+  thumbnailUrl: 'https://abrazogigante.es/videos/og.jpg',
   contentUrl: 'https://abrazogigante.es/videos/video.mp4',
   uploadDate: '2026-01-01',
 }
