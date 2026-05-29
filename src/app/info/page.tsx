@@ -121,9 +121,6 @@ export default function InfoPage() {
             <p>Si quieres sorprender a tus invitados y hacer que todos hablen de tu fiesta, nuestros disfraces hinchables son la opción perfecta.</p>
             <p>🎉 ¡Reserva ahora y convierte tu celebración en algo todavía más mágico, divertido y abrazable! 🎉</p>
 
-            <p className="text-center mt-6">
-              <Link href="/catalogo" className="font-semibold underline underline-offset-4 hover:text-[#d0632a] transition-colors" style={{color: '#d0632a'}}>Explora nuestro catálogo de disfraces →</Link>
-            </p>
 
             <div className="pt-8 text-center">
               <a href={`tel:${PHONE}`} className="btn-primary text-lg px-12 py-5">
