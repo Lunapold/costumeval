@@ -31,18 +31,18 @@ export default function Header() {
 
          {/* Center: Navigation (hidden below 1024px) */}
          <nav className="hidden lg:flex items-center gap-8 text-sm font-semibold">
-            <Link href="/catalogo" className={`hover:text-[#797372] transition-colors ${pathname?.startsWith('/catalogo') || pathname?.startsWith('/disfraces-') || pathname?.startsWith('/disfraz/') ? 'text-[#d0632a]' : 'text-gray-700'}`}>
-              Catálogo
+             <Link href="/catalogo" scroll={false} className={`hover:text-[#797372] transition-colors ${pathname?.startsWith('/catalogo') || pathname?.startsWith('/disfraces-') || pathname?.startsWith('/disfraz/') ? 'text-[#d0632a]' : 'text-gray-700'}`}>
+               Catálogo
+             </Link>
+            <Link href="/info" scroll={false} className={`hover:text-[#797372] transition-colors ${pathname === '/info' ? 'text-[#d0632a]' : 'text-gray-700'}`}>
+               Info
+             </Link>
+            <Link href="/fotos" scroll={false} className={`hover:text-[#797372] transition-colors ${pathname === '/fotos' ? 'text-[#d0632a]' : 'text-gray-700'}`}>
+              Fotos
             </Link>
-           <Link href="/info" className={`hover:text-[#797372] transition-colors ${pathname === '/info' ? 'text-[#d0632a]' : 'text-gray-700'}`}>
-              Info
+            <Link href="/contacto" scroll={false} className={`hover:text-[#797372] transition-colors ${pathname === '/contacto' ? 'text-[#d0632a]' : 'text-gray-700'}`}>
+              Contacto
             </Link>
-           <Link href="/fotos" className={`hover:text-[#797372] transition-colors ${pathname === '/fotos' ? 'text-[#d0632a]' : 'text-gray-700'}`}>
-             Fotos
-           </Link>
-           <Link href="/contacto" className={`hover:text-[#797372] transition-colors ${pathname === '/contacto' ? 'text-[#d0632a]' : 'text-gray-700'}`}>
-             Contacto
-           </Link>
          </nav>
 
          {/* Right: Contact Info (hidden below 1024px) */}
@@ -87,18 +87,18 @@ export default function Header() {
            <div className="fixed inset-0 z-40 lg:hidden" onClick={() => setIsOpen(false)} />
            <div className="absolute top-16 left-0 right-0 bg-white border-t border-gray-200 z-50 lg:hidden">
              <nav className="flex flex-col p-4 gap-4">
-             <Link href="/catalogo" className={`font-semibold py-2 ${pathname?.startsWith('/catalogo') ? 'text-[#d0632a]' : 'text-gray-700'}`} onClick={() => setIsOpen(false)}>
-               Catálogo
-             </Link>
-             <Link href="/info" className={`font-semibold py-2 ${pathname === '/info' ? 'text-[#d0632a]' : 'text-gray-700'}`} onClick={() => setIsOpen(false)}>
-               Info
-             </Link>
-             <Link href="/fotos" className={`font-semibold py-2 ${pathname === '/fotos' ? 'text-[#d0632a]' : 'text-gray-700'}`} onClick={() => setIsOpen(false)}>
-               Fotos
-             </Link>
-             <Link href="/contacto" className={`font-semibold py-2 ${pathname === '/contacto' ? 'text-[#d0632a]' : 'text-gray-700'}`} onClick={() => setIsOpen(false)}>
-               Contacto
-             </Link>
+             <Link href="/catalogo" scroll={false} className={`font-semibold py-2 ${pathname?.startsWith('/catalogo') ? 'text-[#d0632a]' : 'text-gray-700'}`} onClick={() => setIsOpen(false)}>
+                Catálogo
+              </Link>
+              <Link href="/info" scroll={false} className={`font-semibold py-2 ${pathname === '/info' ? 'text-[#d0632a]' : 'text-gray-700'}`} onClick={() => setIsOpen(false)}>
+                Info
+              </Link>
+              <Link href="/fotos" scroll={false} className={`font-semibold py-2 ${pathname === '/fotos' ? 'text-[#d0632a]' : 'text-gray-700'}`} onClick={() => setIsOpen(false)}>
+                Fotos
+              </Link>
+              <Link href="/contacto" scroll={false} className={`font-semibold py-2 ${pathname === '/contacto' ? 'text-[#d0632a]' : 'text-gray-700'}`} onClick={() => setIsOpen(false)}>
+                Contacto
+              </Link>
             </nav>
           </div>
           </>

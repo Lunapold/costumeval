@@ -1,18 +1,5 @@
 [
   {
-    "id": 1,
-    "name": "Dinosaurio Adulto",
-    "slug": "dinosaurio-adulto",
-    "price": 15,
-    "category": "divertidos",
-    "image": "/images/costumes/dinosaurio-adulto/1.webp",
-    "description": "Impresionante disfraz hinchable de dinosaurio para adultos. Perfecto para fiestas, eventos y sorpresas. Con ventilador incluido.",
-    "includes": ["Disfraz", "Ventilador", "Portapilas"],
-    "available_sizes": ["Adulto"],
-    "size_description": "Altura: 220-230 cm hinchado. Este disfraz está diseñado para personas de 120-150 cm de altura.",
-    "tags": ["dinosaurio", "adulto", "hinchable"]
-  },
-  {
     "id": 2,
     "name": "Bailarina",
     "slug": "bailarina",
@@ -24,6 +11,19 @@
     "available_sizes": ["Adulto"],
     "size_description": "Altura: 220-230 cm hinchado. Este disfraz está diseñado para personas de 120-150 cm de altura.",
     "tags": ["bailarina", "danza", "hinchable"]
+  },
+  {
+    "id": 1,
+    "name": "Dinosaurio Adulto",
+    "slug": "dinosaurio-adulto",
+    "price": 15,
+    "category": "divertidos",
+    "image": "/images/costumes/dinosaurio-adulto/1.webp",
+    "description": "Impresionante disfraz hinchable de dinosaurio para adultos. Perfecto para fiestas, eventos y sorpresas. Con ventilador incluido.",
+    "includes": ["Disfraz", "Ventilador", "Portapilas"],
+    "available_sizes": ["Adulto"],
+    "size_description": "Altura: 220-230 cm hinchado. Este disfraz está diseñado para personas de 120-150 cm de altura.",
+    "tags": ["dinosaurio", "adulto", "hinchable"]
   },
   {
     "id": 3,
