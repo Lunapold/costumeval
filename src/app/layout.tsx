@@ -35,13 +35,13 @@ export const metadata: Metadata = {
     siteName: 'AbrazoGigante',
     locale: 'es_ES',
     type: 'website',
-    images: [{ url: 'https://abrazogigante.es/images/Logo.png', width: 800, height: 600 }],
+    images: [{ url: 'https://abrazogigante.es/videos/1.jpg', width: 3200, height: 1800 }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'AbrazoGigante | Alquiler de Disfraces Hinchables en Valencia',
     description: 'Alquiler de disfraces hinchables en Valencia y Sagunto. Disfraces para cumpleaños, día nacimiento, bodas, eventos corporativos y despedidas.',
-    images: ['https://abrazogigante.es/images/Logo.png'],
+    images: ['https://abrazogigante.es/videos/1.jpg'],
   },
   robots: {
     index: true,
