@@ -26,6 +26,7 @@ Abrir [http://localhost:3000](http://localhost:3000)
 src/
 ├── app/                     # Páginas (App Router)
 │   ├── page.tsx             # Inicio (video/photo banner)
+│   ├── not-found.tsx        # Página 404
 │   ├── catalogo/            # Catálogo + subcategorías
 │   ├── disfraz/[slug]/      # Página detalle disfraz
 │   ├── disfraces-*-valencia/# Páginas categoría
@@ -50,13 +51,13 @@ data/
 ├── costumes.json            # Catálogo (13 disfraces, 3 categorías)
 public/
 ├── images/
-│   ├── costumes/*/          # Fotos por disfraz (1.png, 2.png, 3.png)
+│   ├── costumes/*/          # Fotos por disfraz (1.webp, 2.webp, 3.webp)
 │   ├── fotos/               # Galería general
-│   ├── reviews/             # Avatares reseñas (1.png–6.png)
-│   ├── uso.png              # Imagen instrucciones universal
-│   ├── disfraces.png        # Logo hero "disfraces"
-│   ├── Logo.png             # Logo principal
-│   └── Logo_mini.png        # Logo pequeño
+│   ├── reviews/             # Avatares reseñas (1.webp–6.webp)
+│   ├── uso.webp             # Imagen instrucciones universal
+│   ├── disfraces.webp       # Logo hero "disfraces"
+│   ├── Logo.webp            # Logo principal
+│   └── Logo_mini.webp       # Logo pequeño
 ├── videos/
 │   ├── video.mp4            # Video banner (mobile/tablet)
 │   └── 1.jpg                # Foto banner (desktop)
@@ -71,15 +72,17 @@ public/
 - **Galería con lightbox**: fotos con navegación por teclado
 - **Reseñas**: slider con avatares circulares
 - **Instrucciones**: bloque colapsable con advertencia (obligatorio leer)
-- **SEO completo**: JSON-LD (Product, BreadcrumbList, FAQPage, LocalBusiness), sitemap, robots, canonical, Open Graph
+- **Página 404**: personalizada con enlace al catálogo
+- **SEO completo**: JSON-LD (Product, BreadcrumbList, FAQPage, LocalBusiness, VideoObject), sitemap, robots, canonical, Open Graph, Twitter Cards
+- **Imágenes WebP**: todas las imágenes convertidas (44 MB → 5.5 MB)
 
 ## Configuración
 
-1. Añadir fotos de disfraces en `public/images/costumes/<slug>/1.png`, `2.png`, `3.png`
+1. Añadir fotos de disfraces en `public/images/costumes/<slug>/1.webp`, `2.webp`, `3.webp`
 2. Añadir fotos para galería en `public/images/fotos/`
 3. Añadir video en `public/videos/video.mp4`
 4. Añadir foto desktop en `public/videos/1.jpg`
-5. Añadir avatares reseñas en `public/images/reviews/1.png`–`6.png`
+5. Añadir avatares reseñas en `public/images/reviews/1.webp`–`6.webp`
 6. Cambiar teléfono (buscar `+34602042056` en `src/`)
 7. Editar `data/costumes.json` para añadir/quitar disfraces
 8. Editar reseñas en `src/components/ReviewsSlider.tsx`
