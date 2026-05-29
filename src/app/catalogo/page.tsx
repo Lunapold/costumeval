@@ -61,7 +61,6 @@ export default function CatalogoPage() {
             <Link 
               key={cat.name} 
               href={cat.href}
-              target="_blank" rel="noopener noreferrer"
               className="bg-white rounded-[0.3rem] p-6 border border-gray-200 hover:border-[#d0632a] hover:shadow-card-hover transition-all cursor-pointer group block text-center"
             >
               <div style={{color: '#d0632a'}} className="flex justify-center">

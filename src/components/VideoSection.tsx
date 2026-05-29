@@ -40,7 +40,7 @@ export default function VideoSection() {
       />
       <link rel="preload" as="video" href={VIDEO} />
       <div className="relative w-full overflow-hidden">
-        <Link href="/catalogo" target="_blank" rel="noopener noreferrer" className="w-full block lg:hidden">
+        <Link href="/catalogo" className="w-full block lg:hidden">
           <video
             src={VIDEO}
             autoPlay
@@ -52,7 +52,7 @@ export default function VideoSection() {
             className="w-full h-auto block scale-[1.01]"
           />
         </Link>
-        <Link href="/catalogo" target="_blank" rel="noopener noreferrer" className="w-full hidden lg:block">
+        <Link href="/catalogo" className="w-full hidden lg:block">
           <video
             src={VIDEO}
             autoPlay

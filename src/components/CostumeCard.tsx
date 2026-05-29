@@ -25,7 +25,7 @@ export default function CostumeCard({ costume }: { costume: Costume }) {
 
   return (
     <article className="group/costume">
-      <Link href={`/disfraz/${costume.slug}`} target="_blank" rel="noopener noreferrer" className="block">
+      <Link href={`/disfraz/${costume.slug}`} className="block">
         <div className="relative aspect-[3/4] bg-gray-100 overflow-hidden mb-4 costume-card-item">
           <Image
             src={costume.image}

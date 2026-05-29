@@ -41,7 +41,6 @@ export default function ContactoPage() {
 
             <a
               href={WHATSAPP_URL}
-              target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-4 w-full px-6 py-5 rounded-xl border-2 border-gray-200 hover:border-[#25D366] transition-colors bg-white"
             >
