@@ -12,19 +12,19 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-[#e9e8e5] border-b border-gray-200">
-       <div className="flex items-center justify-center h-16 px-6 lg:px-8">
+       <div className="flex items-center justify-center h-20 px-6 lg:px-8">
          {/* Left: Logo */}
           <div className="flex items-center absolute left-6 lg:left-8">
             <Link href="/" className="flex items-center gap-2">
               <img
                 src="/images/Logo.webp"
                 alt="AbrazoGigante"
-                className="h-14 w-auto max-[425px]:h-9"
+                className="h-20 w-auto max-[425px]:h-12"
               />
               <img
                 src="/images/Logo_mini.webp"
                 alt="AbrazoGigante"
-                className="h-10 w-auto max-[425px]:h-6"
+                className="h-14 w-auto max-[425px]:h-8"
               />
             </Link>
           </div>
@@ -85,7 +85,7 @@ export default function Header() {
        {isOpen && (
          <>
            <div className="fixed inset-0 z-40 lg:hidden" onClick={() => setIsOpen(false)} />
-           <div className="absolute top-16 left-0 right-0 bg-white border-t border-gray-200 z-50 lg:hidden">
+           <div className="absolute top-20 left-0 right-0 bg-white border-t border-gray-200 z-50 lg:hidden">
              <nav className="flex flex-col p-4 gap-4">
              <Link href="/catalogo" scroll={false} className={`font-semibold py-2 ${pathname?.startsWith('/catalogo') ? 'text-[#d0632a]' : 'text-gray-700'}`} onClick={() => setIsOpen(false)}>
                 Catálogo
