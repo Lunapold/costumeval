@@ -3,7 +3,6 @@
 import Link from 'next/link'
 
 const VIDEO = '/videos/video.mp4'
-const PHOTO = '/videos/1.jpg'
 
 const videoSchema = {
   '@context': 'https://schema.org',

@@ -2,6 +2,7 @@
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
+  basePath: '/costumeval',
   images: {
     unoptimized: true,
   },
