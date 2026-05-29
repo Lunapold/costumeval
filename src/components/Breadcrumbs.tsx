@@ -63,12 +63,12 @@ export default function Breadcrumbs() {
   }
 
   const schemaItems = [
-    { '@type': 'ListItem', position: 1, name: 'Inicio', item: 'https://disfracesvalencia.com' },
+    { '@type': 'ListItem', position: 1, name: 'Inicio', item: 'https://abrazogigante.es' },
     ...items.map((item, index) => ({
       '@type': 'ListItem' as const,
       position: index + 2,
       name: item.label,
-      item: item.isLast ? undefined : `https://disfracesvalencia.com${item.href}`,
+      item: item.isLast ? undefined : `https://abrazogigante.es${item.href}`,
     })),
   ]
 

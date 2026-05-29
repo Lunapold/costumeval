@@ -79,7 +79,7 @@ export default async function CostumePage({ params }: Props) {
     '@type': 'Product',
     name: costume.name,
     description: costume.description,
-    image: `https://disfracesvalencia.com${costume.image}`,
+    image: `https://abrazogigante.es${costume.image}`,
     offers: {
       '@type': 'Offer',
       price: costume.price,

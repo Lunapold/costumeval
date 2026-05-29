@@ -4,7 +4,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 export const metadata: Metadata = {
   title: 'Contacto',
   description: 'Contacta con AbrazoGigante para alquilar disfraces hinchables en Valencia. Reserva por teléfono o WhatsApp.',
-  alternates: { canonical: 'https://disfracesvalencia.com/contacto' },
+  alternates: { canonical: 'https://abrazogigante.es/contacto' },
 }
 
 const PHONE = '+34602042056'

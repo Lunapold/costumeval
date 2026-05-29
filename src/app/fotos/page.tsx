@@ -7,7 +7,7 @@ import path from 'path'
 export const metadata: Metadata = {
   title: 'Fotos',
   description: 'Galería de fotos de disfraces hinchables en acción. Mira cómo quedan nuestros disfraces hinchables en Valencia.',
-  alternates: { canonical: 'https://disfracesvalencia.com/fotos' },
+  alternates: { canonical: 'https://abrazogigante.es/fotos' },
 }
 
 export default function FotosPage() {

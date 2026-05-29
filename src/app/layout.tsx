@@ -31,24 +31,24 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'AbrazoGigante | Alquiler de Disfraces Hinchables en Valencia',
     description: 'Alquiler de disfraces hinchables en Valencia y Sagunto. Disfraces para cumpleaños, día nacimiento, bodas, eventos corporativos y despedidas.',
-    url: 'https://disfracesvalencia.com',
+    url: 'https://abrazogigante.es',
     siteName: 'AbrazoGigante',
     locale: 'es_ES',
     type: 'website',
-    images: [{ url: 'https://disfracesvalencia.com/images/Logo.png', width: 800, height: 600 }],
+    images: [{ url: 'https://abrazogigante.es/images/Logo.png', width: 800, height: 600 }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'AbrazoGigante | Alquiler de Disfraces Hinchables en Valencia',
     description: 'Alquiler de disfraces hinchables en Valencia y Sagunto. Disfraces para cumpleaños, día nacimiento, bodas, eventos corporativos y despedidas.',
-    images: ['https://disfracesvalencia.com/images/Logo.png'],
+    images: ['https://abrazogigante.es/images/Logo.png'],
   },
   robots: {
     index: true,
     follow: true,
   },
   alternates: {
-    canonical: 'https://disfracesvalencia.com',
+    canonical: 'https://abrazogigante.es',
   },
 }
 
@@ -72,7 +72,7 @@ export default function RootLayout({
               '@type': 'LocalBusiness',
               name: 'AbrazoGigante',
               description: 'Alquiler de disfraces en Valencia.',
-              url: 'https://disfracesvalencia.com',
+              url: 'https://abrazogigante.es',
               telephone: '+34602042056',
               address: {
                 '@type': 'PostalAddress',

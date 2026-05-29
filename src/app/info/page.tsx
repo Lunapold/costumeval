@@ -5,7 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 export const metadata: Metadata = {
   title: 'Información',
   description: 'Alquiler de disfraces hinchables en Valencia. Tallas, precios y condiciones. Altura 220-230 cm hinchado. Reserva por teléfono.',
-  alternates: { canonical: 'https://disfracesvalencia.com/info' },
+  alternates: { canonical: 'https://abrazogigante.es/info' },
 }
 
 const PHONE = '+34602042056'

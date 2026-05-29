@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://disfracesvalencia.com/sitemap.xml',
+    sitemap: 'https://abrazogigante.es/sitemap.xml',
   }
 }
