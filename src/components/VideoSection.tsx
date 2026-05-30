@@ -3,6 +3,7 @@
 import Link from 'next/link'
 
 const VIDEO = '/videos/video.mp4'
+const VIDEO_MOB = '/videos/video-mob.mp4'
 
 const videoSchema = {
   '@context': 'https://schema.org',
@@ -39,10 +40,11 @@ export default function VideoSection() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(videoSchema) }}
       />
       <link rel="preload" as="video" href={VIDEO} />
+      <link rel="preload" as="video" href={VIDEO_MOB} />
       <div className="relative w-full overflow-hidden">
         <Link href="/catalogo" className="w-full block lg:hidden">
           <video
-            src={VIDEO}
+            src={VIDEO_MOB}
             autoPlay
             loop
             muted
@@ -64,7 +66,7 @@ export default function VideoSection() {
             className="w-full h-auto block scale-[1.01]"
           />
         </Link>
-        <div className="absolute inset-0 z-20 pointer-events-none">
+        <div className="absolute inset-0 z-20 pointer-events-none hidden lg:block">
           <Balloon color="#a8e6cf" size={120} rotate={-12} animDelay={0} style={{ top: '13%', left: '7%' }} />
           <Balloon color="#f3b9d2" size={100} rotate={15} animDelay={0.8} style={{ top: '24%', left: '2%' }} />
           <Balloon color="#ffe082" size={130} rotate={-20} animDelay={1.6} style={{ top: '38%', left: '9%' }} />
