@@ -13,21 +13,21 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-[#e9e8e5] border-b border-gray-200">
        <div className="flex items-center justify-center h-20 px-6 lg:px-8">
-          {/* Left: Logo */}
-           <div className="flex items-center absolute left-6 lg:left-8">
-             <Link href="/" className="flex items-center gap-2">
-               <img
-                 src="/images/Logo.webp"
-                 alt="AbrazoGigante"
-                 className="h-14 w-auto max-[425px]:h-9 hidden lg:block"
-               />
-               <img
-                 src="/images/Logo_mini_2.webp"
-                 alt="AbrazoGigante"
-                 className="h-14 w-auto max-[425px]:h-10 lg:hidden"
-               />
-             </Link>
-           </div>
+         {/* Left: Logo */}
+          <div className="flex items-center absolute left-6 lg:left-8">
+            <Link href="/" className="flex items-center gap-2">
+              <img
+                src="/images/Logo.webp"
+                alt="AbrazoGigante"
+                className="h-14 w-auto max-[425px]:h-9"
+              />
+              <img
+                src="/images/Logo_mini_2.webp"
+                alt="AbrazoGigante"
+                className="h-14 w-auto max-[425px]:h-10"
+              />
+            </Link>
+          </div>
 
          {/* Center: Navigation (hidden below 1024px) */}
          <nav className="hidden lg:flex items-center gap-8 text-sm font-semibold">
