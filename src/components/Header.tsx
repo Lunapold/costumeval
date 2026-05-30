@@ -22,7 +22,7 @@ export default function Header() {
                 className="h-14 w-auto max-[425px]:h-9"
               />
               <img
-                src="/images/Logo_mini.webp"
+                src="/images/Logo_mini.webp?v=2"
                 alt="AbrazoGigante"
                 className="h-14 w-auto max-[425px]:h-10"
               />
