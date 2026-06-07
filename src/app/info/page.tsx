@@ -89,8 +89,6 @@ export default function InfoPage() {
               Nuestros personajes gigantes y abrazables crean momentos inolvidables, hacen reír a niños y adultos y convierten cualquier celebración en una experiencia única llena de sonrisas, abrazos y diversión 💖
             </p>
 
-            <h2 className="text-2xl font-bold mt-10 mb-4" style={{color: '#1A1A1A'}}>PREGUNTAS FRECUENTES</h2>
-
             <div className="space-y-6">
               <div>
                 <h3 className="text-xl font-semibold mb-2" style={{color: '#1A1A1A'}}>¿Cómo funciona el alquiler de disfraces hinchables en Valencia y Sagunto?</h3>
