@@ -97,18 +97,18 @@ export default function RootLayout({
                   mainEntity: [
                     {
                       '@type': 'Question',
-                      name: '¿Qué es Abrazo Gigante y cómo puedo sorprender a los invitados en mi fiesta o cumpleaños en Valencia?',
+                      name: '¿Qué es Abrazo Gigante y cómo puedo sorprender a mis invitados en Valencia?',
                       acceptedAnswer: {
                         '@type': 'Answer',
-                        text: 'En Abrazo Gigante ofrecemos alquiler de disfraces hinchables en Valencia para cumpleaños, bodas, eventos, fiestas privadas, empresas y mucho más. Nuestros personajes gigantes crean momentos inolvidables y convierten cualquier celebración en una experiencia única.',
+                        text: 'Somos tu aliado secreto para crear momentos inolvidables. Ofrecemos el mejor alquiler de disfraces hinchables en Valencia y Sagunto. Nuestros personajes gigantes, divertidos y super-abrazables, hacen reír a niños y adultos.',
                       },
                     },
                     {
                       '@type': 'Question',
-                      name: '¿Cómo funciona el alquiler de disfraces hinchables en Valencia y Sagunto?',
+                      name: '¿Cómo funciona el alquiler y cómo se inflan los disfraces?',
                       acceptedAnswer: {
                         '@type': 'Answer',
-                        text: 'Es muy sencillo. Eliges el disfraz que más te guste en nuestra web, seleccionas los días que lo necesitas y realizas la reserva. Te entregamos el disfraz limpio, desinfectado y listo para usar, junto con el inflador portátil incluido.',
+                        text: 'Reservas tu personaje favorito en nuestra web, te entregamos el disfraz listo para usar con ventilador y batería incluidos. Se infla en un momento y al finalizar nos devuelves el equipo en el punto acordado.',
                       },
                     },
                     {
@@ -116,31 +116,23 @@ export default function RootLayout({
                       name: '¿Qué zonas cubrís y cómo se realiza la entrega?',
                       acceptedAnswer: {
                         '@type': 'Answer',
-                        text: 'Damos servicio de alquiler de disfraces en Valencia capital, Sagunto, Puerto de Sagunto y localidades cercanas. Al realizar tu reserva puedes coordinar la recogida local o consultar las opciones de entrega a domicilio.',
+                        text: 'Damos servicio de alquiler en Valencia capital, Sagunto, Puerto de Sagunto y localidades cercanas. Al hacer tu reserva puedes coordinar la recogida local o consultar las opciones de entrega a domicilio.',
                       },
                     },
                     {
                       '@type': 'Question',
-                      name: '¿Es necesario pagar una fianza para alquilar un disfraz original?',
+                      name: '¿Qué tamaño tienen y qué espacio se necesita?',
                       acceptedAnswer: {
                         '@type': 'Answer',
-                        text: 'Sí, solicitamos una pequeña fianza reembolsable al recoger el producto. Una vez que nos devuelvas el disfraz en buen estado, te devolvemos el 100% de la fianza de forma inmediata.',
+                        text: 'Una vez inflados, los disfraces alcanzan aproximadamente 220–230 cm de altura. Recomendamos usarlos en jardines, terrazas, parques, salones grandes o locales con techos altos.',
                       },
                     },
                     {
                       '@type': 'Question',
-                      name: '¿Quién se encarga de la limpieza de los disfraces?',
+                      name: '¿Es necesario pagar una fianza y quién limpia el disfraz?',
                       acceptedAnswer: {
                         '@type': 'Answer',
-                        text: '¡Nosotros nos encargamos de todo! No tienes que lavar el disfraz antes de devolverlo. Cada traje pasa por un estricto proceso de limpieza y desinfección higiénica antes de entregarse al siguiente cliente.',
-                      },
-                    },
-                    {
-                      '@type': 'Question',
-                      name: '¿Qué pasa si el disfraz hinchable se daña durante el evento?',
-                      acceptedAnswer: {
-                        '@type': 'Answer',
-                        text: 'Los daños menores por uso normal no tienen penalización. Si ocurre un accidente, avísanos al devolverlo. Los desperfectos graves causados por negligencia se descontarán de la fianza.',
+                        text: 'Nosotros nos encargamos de la limpieza y desinfección de cada traje. Solicitamos una pequeña fianza reembolsable al recoger el producto. Al devolverlo en buen estado, te devolvemos el 100% de la fianza de forma inmediata.',
                       },
                     },
                   ],
