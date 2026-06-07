@@ -17,6 +17,14 @@ export default function InfoPage() {
     mainEntity: [
       {
         '@type': 'Question',
+        name: '¿Qué es Abrazo Gigante y cómo puedo sorprender a los invitados en mi fiesta o cumpleaños en Valencia?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'En Abrazo Gigante ofrecemos alquiler de disfraces hinchables en Valencia para cumpleaños, bodas, eventos, fiestas privadas, empresas y mucho más. Nuestros personajes gigantes y abrazables crean momentos inolvidables, hacen reír a niños y adultos y convierten cualquier celebración en una experiencia única llena de sonrisas, abrazos y diversión.',
+        },
+      },
+      {
+        '@type': 'Question',
         name: '¿Cómo funciona el alquiler de disfraces hinchables en Valencia y Sagunto?',
         acceptedAnswer: {
           '@type': 'Answer',
@@ -70,6 +78,7 @@ export default function InfoPage() {
           <h1 className="section-title mb-8" style={{color: '#d0632a'}}>ALQUILER DE DISFRACES HINCHABLES EN VALENCIA</h1>
           
           <div className="space-y-8 text-gray-700">
+            <h2 className="text-2xl font-bold mb-4" style={{color: '#1A1A1A'}}>¿Qué es Abrazo Gigante y cómo puedo sorprender a los invitados en mi fiesta o cumpleaños en Valencia?</h2>
             <p>
               ¿Buscas una forma original, divertida y abrazable de sorprender en tu fiesta?
             </p>
