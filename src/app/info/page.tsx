@@ -78,7 +78,7 @@ export default function InfoPage() {
           <h1 className="section-title mb-8" style={{color: '#d0632a'}}>ALQUILER DE DISFRACES HINCHABLES EN VALENCIA</h1>
           
           <div className="space-y-8 text-gray-700">
-            <h2 className="text-2xl font-bold mb-4" style={{color: '#1A1A1A'}}>¿Qué es Abrazo Gigante y cómo puedo sorprender a los invitados en mi fiesta o cumpleaños en Valencia?</h2>
+            <h3 className="text-xl font-semibold mb-4" style={{color: '#1A1A1A'}}>¿Qué es Abrazo Gigante y cómo puedo sorprender a los invitados en mi fiesta o cumpleaños en Valencia?</h3>
             <p>
               ¿Buscas una forma original, divertida y abrazable de sorprender en tu fiesta?
             </p>
