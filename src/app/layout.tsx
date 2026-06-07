@@ -69,38 +69,75 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               '@context': 'https://schema.org',
-              '@type': 'LocalBusiness',
-              name: 'AbrazoGigante',
-              description: 'Alquiler de disfraces en Valencia.',
-              url: 'https://abrazogigante.es',
-              telephone: '+34602042056',
-              address: {
-                '@type': 'PostalAddress',
-                streetAddress: 'Calle Gran Vía, 10',
-                addressLocality: 'Valencia',
-                postalCode: '46001',
-                addressCountry: 'ES',
-              },
-              geo: {
-                '@type': 'GeoCoordinates',
-                latitude: 39.4699,
-                longitude: -0.3763,
-              },
-              openingHoursSpecification: [
+              '@graph': [
                 {
-                  '@type': 'OpeningHoursSpecification',
-                  dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-                  opens: '10:00',
-                  closes: '20:00',
+                  '@type': 'LocalBusiness',
+                  '@id': 'https://abrazogigante.es/#organization',
+                  name: 'AbrazoGigante',
+                  url: 'https://abrazogigante.es',
+                  image: 'https://abrazogigante.es/videos/og.jpg',
+                  priceRange: '€€',
+                  telephone: '+34602042056',
+                  address: {
+                    '@type': 'PostalAddress',
+                    addressLocality: 'Valencia',
+                    addressRegion: 'Comunidad Valenciana',
+                    addressCountry: 'ES',
+                  },
+                  areaServed: [
+                    { '@type': 'AdministrativeArea', name: 'Valencia' },
+                    { '@type': 'AdministrativeArea', name: 'Sagunto' },
+                    { '@type': 'AdministrativeArea', name: 'Puerto de Sagunto' },
+                  ],
+                  description: 'Alquiler de disfraces hinchables y originales para eventos, cumpleaños y fiestas en Valencia y Sagunto.',
                 },
                 {
-                  '@type': 'OpeningHoursSpecification',
-                  dayOfWeek: ['Saturday'],
-                  opens: '10:00',
-                  closes: '14:00',
+                  '@type': 'FAQPage',
+                  '@id': 'https://abrazogigante.es/#faq',
+                  mainEntity: [
+                    {
+                      '@type': 'Question',
+                      name: '¿Cómo funciona el alquiler de disfraces hinchables en Valencia y Sagunto?',
+                      acceptedAnswer: {
+                        '@type': 'Answer',
+                        text: 'Es muy sencillo. Eliges el disfraz que más te guste en nuestra web, seleccionas los días que lo necesitas y realizas la reserva. Te entregamos el disfraz limpio, desinfectado y listo para usar, junto con el inflador portátil incluido.',
+                      },
+                    },
+                    {
+                      '@type': 'Question',
+                      name: '¿Qué zonas cubrís y cómo se realiza la entrega?',
+                      acceptedAnswer: {
+                        '@type': 'Answer',
+                        text: 'Damos servicio de alquiler de disfraces en Valencia capital, Sagunto, Puerto de Sagunto y localidades cercanas. Al realizar tu reserva puedes coordinar la recogida local o consultar las opciones de entrega a domicilio.',
+                      },
+                    },
+                    {
+                      '@type': 'Question',
+                      name: '¿Es necesario pagar una fianza para alquilar un disfraz original?',
+                      acceptedAnswer: {
+                        '@type': 'Answer',
+                        text: 'Sí, solicitamos una pequeña fianza reembolsable al recoger el producto. Una vez que nos devuelvas el disfraz en buen estado, te devolvemos el 100% de la fianza de forma inmediata.',
+                      },
+                    },
+                    {
+                      '@type': 'Question',
+                      name: '¿Quién se encarga de la limpieza de los disfraces?',
+                      acceptedAnswer: {
+                        '@type': 'Answer',
+                        text: '¡Nosotros nos encargamos de todo! No tienes que lavar el disfraz antes de devolverlo. Cada traje pasa por un estricto proceso de limpieza y desinfección higiénica antes de entregarse al siguiente cliente.',
+                      },
+                    },
+                    {
+                      '@type': 'Question',
+                      name: '¿Qué pasa si el disfraz hinchable se daña durante el evento?',
+                      acceptedAnswer: {
+                        '@type': 'Answer',
+                        text: 'Los daños menores por uso normal no tienen penalización. Si ocurre un accidente, avísanos al devolverlo. Los desperfectos graves causados por negligencia se descontarán de la fianza.',
+                      },
+                    },
+                  ],
                 },
               ],
-              priceRange: '€€',
             }),
           }}
         />
