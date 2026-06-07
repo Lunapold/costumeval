@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Disfraces Infantiles',
-  description: 'Disfraces hinchables infantiles para alquilar en Valencia. Los favoritos de niños y celebraciones familiares.',
+  title: 'Disfraces Infantiles para Alquilar en Valencia',
+  description: 'Alquiler de disfraces hinchables infantiles en Valencia. Los favoritos de niños para cumpleaños y celebraciones familiares. ¡Desde 15€!',
   alternates: { canonical: 'https://abrazogigante.es/disfraces-infantiles-valencia' },
 }
 

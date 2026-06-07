@@ -17,9 +17,9 @@ const manrope = Manrope({
 export const metadata: Metadata = {
   title: {
     template: '%s | AbrazoGigante',
-    default: 'AbrazoGigante | Alquiler de Disfraces Hinchables en Valencia',
+    default: 'Alquiler de Disfraces Hinchables en Valencia y Sagunto | AbrazoGigante',
   },
-  description: 'Alquiler de disfraces hinchables en Valencia y Sagunto. Amplio catálogo para cumpleaños, bodas, eventos corporativos y despedidas. Disfraces para día nacimiento y fiestas infantiles.',
+  description: '¿Buscas disfraces en Valencia? Alquilamos disfraces hinchables gigantes para cumpleaños, bodas y eventos en Valencia y Sagunto. ¡Precios desde 15€! Reserva ya.',
   keywords: 'alquiler disfraces Valencia, disfraces hinchables Valencia, alquiler disfraces Sagunto, disfraces inflables Valencia, alquiler disfraz hinchable, disfraces cumpleaños Valencia, disfraces corporativos Valencia, disfraces despedidas Valencia, alquiler disfraces día nacimiento',
   icons: {
     icon: {
@@ -29,8 +29,8 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'AbrazoGigante | Alquiler de Disfraces Hinchables en Valencia',
-    description: 'Alquiler de disfraces hinchables en Valencia y Sagunto. Disfraces para cumpleaños, día nacimiento, bodas, eventos corporativos y despedidas.',
+    title: 'Alquiler de Disfraces Hinchables en Valencia y Sagunto | AbrazoGigante',
+    description: '¿Buscas disfraces en Valencia? Alquilamos disfraces hinchables gigantes para cumpleaños, bodas y eventos. ¡Precios desde 15€! Reserva ya.',
     url: 'https://abrazogigante.es',
     siteName: 'AbrazoGigante',
     locale: 'es_ES',
@@ -39,8 +39,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'AbrazoGigante | Alquiler de Disfraces Hinchables en Valencia',
-    description: 'Alquiler de disfraces hinchables en Valencia y Sagunto. Disfraces para cumpleaños, día nacimiento, bodas, eventos corporativos y despedidas.',
+    title: 'Alquiler de Disfraces Hinchables en Valencia y Sagunto | AbrazoGigante',
+    description: '¿Buscas disfraces en Valencia? Alquilamos disfraces hinchables gigantes para cumpleaños, bodas y eventos. ¡Precios desde 15€! Reserva ya.',
     images: ['https://abrazogigante.es/videos/og.jpg'],
   },
   robots: {

@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Disfraces Divertidos',
-  description: 'Disfraces hinchables divertidos para alquilar en Valencia. Perfectos para fiestas, reels, cumpleaños y sorpresas.',
+  title: 'Disfraces Divertidos para Alquilar en Valencia',
+  description: 'Alquiler de disfraces hinchables divertidos en Valencia. Perfectos para fiestas, cumpleaños, reels y sorpresas. ¡Desde 15€!',
   alternates: { canonical: 'https://abrazogigante.es/disfraces-divertidos-valencia' },
 }
 

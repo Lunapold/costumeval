@@ -75,14 +75,15 @@ export default function HomePage() {
 
       <section className="py-16 px-6 text-center bg-white">
         <div className="max-w-4xl mx-auto">
-          <h1 className="mb-4 md:mb-6 leading-tight">
+          <h1 className="sr-only">Alquiler de disfraces hinchables en Valencia y Sagunto</h1>
+          <div className="mb-4 md:mb-6 leading-tight">
             <span className="hero-valencia block tracking-widest" style={{fontFamily: "'Manrope', system-ui, sans-serif", marginBottom: 0, color: '#773c3c'}}>Alquiler de</span>
             <span className="block flex justify-center">
-              <img src="/images/disfraces.webp" alt="disfraces hinchables" className="w-full max-w-[280px] sm:max-w-md md:max-w-xl lg:max-w-3xl xl:max-w-4xl h-auto" />
+              <img src="/images/disfraces.webp" alt="" className="w-full max-w-[280px] sm:max-w-md md:max-w-xl lg:max-w-3xl xl:max-w-4xl h-auto" />
             </span>
             <span className="hero-valencia block tracking-widest" style={{fontFamily: "'Manrope', system-ui, sans-serif", color: '#773c3c'}}>en Valencia/Sagunto</span>
             <span className="hero-reserva block tracking-wide font-normal" style={{fontFamily: "'Manrope', system-ui, sans-serif", color: '#773c3c'}}>Reserva por teléfono</span>
-          </h1>
+          </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href={`tel:${PHONE}`} className="btn-primary text-lg px-12 py-5">
               <svg className="w-5 h-5 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
