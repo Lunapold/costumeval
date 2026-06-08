@@ -4,6 +4,7 @@ import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import StickyPhone from '@/components/StickyPhone'
+import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 import CustomCursor from '@/components/CustomCursor'
 import ScrollToTop from '@/components/ScrollToTop'
 
@@ -149,6 +150,7 @@ export default function RootLayout({
         <main>{children}</main>
         <Footer />
         <StickyPhone />
+        <FloatingWhatsApp />
       </body>
     </html>
   )
