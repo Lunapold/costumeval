@@ -33,7 +33,7 @@ export default function CostumeImageCarousel({ images, name }: CostumeImageCarou
       <div className="relative aspect-[3/4] rounded-2xl overflow-hidden bg-gray-100 shadow-card costume-card-item">
         <Image
           src={images[currentImage]}
-          alt={`${name} ${currentImage + 1}`}
+           alt={`Alquiler de disfraz hinchable de ${name} en Valencia - Foto ${currentImage + 1}`}
           fill
           className="object-cover"
           priority={currentImage === 0}

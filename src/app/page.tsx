@@ -79,7 +79,7 @@ export default function HomePage() {
           <div className="mb-4 md:mb-6 leading-tight">
             <span className="hero-valencia block tracking-widest" style={{fontFamily: "'Manrope', system-ui, sans-serif", marginBottom: 0, color: '#773c3c'}}>Alquiler de</span>
             <span className="block flex justify-center">
-              <img src="/images/disfraces.webp" alt="" className="w-full max-w-[280px] sm:max-w-md md:max-w-xl lg:max-w-3xl xl:max-w-4xl h-auto" />
+              <img src="/images/disfraces.webp" alt="disfraces hinchables" className="w-full max-w-[280px] sm:max-w-md md:max-w-xl lg:max-w-3xl xl:max-w-4xl h-auto" />
             </span>
             <span className="hero-valencia block tracking-widest" style={{fontFamily: "'Manrope', system-ui, sans-serif", color: '#773c3c'}}>en Valencia/Sagunto</span>
             <span className="hero-reserva block tracking-wide font-normal" style={{fontFamily: "'Manrope', system-ui, sans-serif", color: '#773c3c'}}>Reserva por teléfono</span>

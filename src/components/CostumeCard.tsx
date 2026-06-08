@@ -29,7 +29,7 @@ export default function CostumeCard({ costume }: { costume: Costume }) {
         <div className="relative aspect-[3/4] bg-gray-100 overflow-hidden mb-4 costume-card-item">
           <Image
             src={costume.image}
-            alt={costume.name}
+            alt={`Alquiler de disfraz hinchable de ${costume.name} en Valencia`}
             fill
             className="object-cover group-hover/costume:scale-110 transition-transform duration-300 ease-out"
             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
