@@ -40,7 +40,7 @@
   },
   {
     "id": 4,
-    "name": "Minion",
+    "name": "Ayudante Amarillo",
     "slug": "minion",
     "price": 15,
     "category": "infantiles",
@@ -53,7 +53,7 @@
   },
   {
     "id": 5,
-    "name": "Minnie Mouse",
+    "name": "Ratoncita",
     "slug": "minnie-mouse",
     "price": 15,
     "category": "infantiles",
@@ -66,7 +66,7 @@
   },
   {
     "id": 6,
-    "name": "Mickey Mouse",
+    "name": "Ratoncito",
     "slug": "mickey-mouse",
     "price": 15,
     "category": "infantiles",
@@ -78,21 +78,8 @@
     "tags": ["mickey", "mouse", "divertido", "hinchable"]
   },
   {
-    "id": 7,
-    "name": "Dinosaurio Infantil",
-    "slug": "dinosaurio-infantil",
-    "price": 15,
-    "category": "infantiles",
-    "image": "/images/costumes/dinosaurio-infantil/1.webp",
-    "description": "Disfraz hinchable de dinosaurio para niños. Un clásico que encanta a los más pequeños. Cómodo y fácil de llevar.",
-    "includes": ["Disfraz", "Ventilador", "Portapilas"],
-    "available_sizes": ["Niño"],
-    "size_description": "Este disfraz está diseñado para niños de 120-150 cm de altura",
-    "tags": ["dinosaurio", "infantil", "hinchable"]
-  },
-  {
     "id": 8,
-    "name": "Pikachu",
+    "name": "Mascota Eléctrica",
     "slug": "pikachu",
     "price": 15,
     "category": "infantiles",
@@ -105,7 +92,7 @@
   },
   {
     "id": 9,
-    "name": "Winnie Pooh",
+    "name": "Osito de Miel",
     "slug": "winnie-pooh",
     "price": 15,
     "category": "infantiles",
@@ -154,6 +141,19 @@
     "available_sizes": ["Adulto"],
     "size_description": "Altura: 220-230 cm hinchado. Este disfraz está diseñado para personas de 120-150 cm de altura.",
     "tags": ["niño", "baby", "party", "revelacion", "hinchable"]
+  },
+  {
+    "id": 7,
+    "name": "Dinosaurio Infantil",
+    "slug": "dinosaurio-infantil",
+    "price": 15,
+    "category": "infantiles",
+    "image": "/images/costumes/dinosaurio-infantil/1.webp",
+    "description": "Disfraz hinchable de dinosaurio para niños. Un clásico que encanta a los más pequeños. Cómodo y fácil de llevar.",
+    "includes": ["Disfraz", "Ventilador", "Portapilas"],
+    "available_sizes": ["Niño"],
+    "size_description": "Este disfraz está diseñado para niños de 120-150 cm de altura",
+    "tags": ["dinosaurio", "infantil", "hinchable"]
   },
   {
     "id": 13,

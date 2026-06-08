@@ -86,7 +86,7 @@ export default function InfoPage() {
                 <h3 className="text-xl font-semibold mb-2" style={{color: '#1A1A1A'}}>❓ ¿Cómo funciona el alquiler y cómo se inflan los disfraces?</h3>
                 <p>¡Es un proceso facilísimo y rápido! 🎈</p>
                 <p><strong>Reserva:</strong> Eliges tu personaje favorito en nuestra web e indicas las fechas que necesitas.</p>
-                <p><strong>Preparación:</strong> Te entregamos el disfraz listo para usar, junto con un ventilador integrado y una batería (power bank o pilas) incluidos en el precio.</p>
+                <p><strong>Preparación:</strong> Te entregamos el disfraz listo para usar, junto con un ventilador integrado. Las pilas o batería externa no están incluidas en el precio, pero puedes adquirirlas fácilmente en cualquier supermercado o tienda.</p>
                 <p><strong>¡A disfrutar!</strong> El disfraz se infla en un momento, es muy cómodo de llevar, permite bailar, saltar y, por supuesto, ¡dar abrazos gigantes! 🤗</p>
                 <p><strong>Devolución:</strong> Una vez terminado el periodo de alquiler, nos devuelves el equipo en el punto acordado.</p>
               </div>
@@ -110,11 +110,11 @@ export default function InfoPage() {
               <div>
                 <h3 className="text-xl font-semibold mb-2" style={{color: '#1A1A1A'}}>❓ ¿Es necesario pagar una fianza y quién limpia el disfraz?</h3>
                 <p><strong>Limpieza:</strong> ¡Nosotros nos encargamos de todo! 🧼 Cada traje pasa por un estricto proceso de lavado y desinfección higiénica antes de entregarse. No tienes que limpiar nada antes de devolverlo.</p>
-                <p><strong>Fianza:</strong> Sí, solicitamos una pequeña fianza reembolsable al recoger el producto para garantizar el cuidado del motor y el tejido. En cuanto nos devuelvas el disfraz y comprobemos que todo está bien, te devolvemos el 100% de la fianza de forma inmediata 💰. (Si ocurre un accidente menor por el uso normal, no pasa nada, pero los desperfectos graves por negligencia se descontarán de la fianza).</p>
+                <p><strong>Fianza:</strong> Sí, solicitamos una pequeña fianza reembolsable al recoger el producto para garantizar el cuidado del motor y el tejido. En cuanto nos devuelvas el disfraz y comprobemos que todo está bien, te devolvemos el 100% de la fianza de forma inmediata 💰. En caso de desperfectos graves por negligencia, se descontarán de la fianza.</p>
               </div>
             </div>
 
-            <h2 className="text-2xl font-bold mt-10 mb-4" style={{color: '#1A1A1A'}}>🎉 ¡Reserva tu disfraz hoy!</h2>
+            <h3 className="text-xl font-semibold mb-2 mt-10" style={{color: '#1A1A1A'}}>🎉 ¡Reserva tu disfraz hoy!</h3>
             <p>No dejes tu fiesta para el último momento. Si quieres que todos hablen de tu evento durante meses, nuestros personajes gigantes son la clave. ¡Consulta la disponibilidad ahora y asegura tu Abrazo Gigante! 💖</p>
 
 

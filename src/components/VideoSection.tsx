@@ -2,8 +2,8 @@
 
 import Link from 'next/link'
 
-const VIDEO = '/videos/video.mp4'
-const VIDEO_MOB = '/videos/video-mob.mp4'
+const VIDEO = '/videos/video-new.mp4'
+const VIDEO_MOB = '/videos/video-new-mob.mp4'
 
 const videoSchema = {
   '@context': 'https://schema.org',
@@ -11,7 +11,7 @@ const videoSchema = {
   name: 'Disfraces hinchables AbrazoGigante en Valencia',
   description: 'Alquiler de disfraces hinchables en Valencia y Sagunto.',
   thumbnailUrl: 'https://abrazogigante.es/videos/og.jpg',
-  contentUrl: 'https://abrazogigante.es/videos/video.mp4',
+  contentUrl: 'https://abrazogigante.es/videos/video-new.mp4',
   uploadDate: '2026-01-01',
 }
 

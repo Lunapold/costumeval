@@ -15,7 +15,8 @@ const PHONE = '+34602042056'
 export default function HomePage() {
   const [loading, setLoading] = useState(true)
   const [skeletonCount, setSkeletonCount] = useState(8)
-  const featured = costumes.slice(0, 8)
+  const exclude = ['minion', 'minnie-mouse', 'mickey-mouse', 'pikachu', 'winnie-pooh']
+  const featured = costumes.filter(c => !exclude.includes(c.slug)).slice(0, 8)
 
   useEffect(() => {
     const timer = setTimeout(() => setLoading(false), 1500)
