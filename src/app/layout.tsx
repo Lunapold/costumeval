@@ -36,13 +36,13 @@ export const metadata: Metadata = {
     siteName: 'AbrazoGigante',
     locale: 'es_ES',
     type: 'website',
-    images: [{ url: 'https://abrazogigante.es/videos/og.jpg', width: 1200, height: 630 }],
+    images: [{ url: 'https://abrazogigante.es/images/red.png', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Alquiler de Disfraces Hinchables en Valencia y Sagunto | AbrazoGigante',
     description: '¿Buscas disfraces en Valencia? Alquilamos disfraces hinchables gigantes para cumpleaños, bodas y eventos. ¡Precios desde 15€! Reserva ya.',
-    images: ['https://abrazogigante.es/videos/og.jpg'],
+    images: ['https://abrazogigante.es/images/red.png'],
   },
   robots: {
     index: true,
@@ -76,7 +76,7 @@ export default function RootLayout({
                   '@id': 'https://abrazogigante.es/#organization',
                   name: 'AbrazoGigante',
                   url: 'https://abrazogigante.es',
-                  image: 'https://abrazogigante.es/videos/og.jpg',
+                  image: 'https://abrazogigante.es/images/red.png',
                   priceRange: '€€',
                   telephone: '+34602042056',
                   address: {
