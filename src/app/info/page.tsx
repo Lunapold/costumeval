@@ -67,50 +67,64 @@ export default function InfoPage() {
             dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
           />
           <Breadcrumbs />
-          <h1 className="section-title mb-8" style={{color: '#d0632a'}}>ALQUILER DE DISFRACES HINCHABLES EN VALENCIA</h1>
+          <h1 className="section-title mb-8" style={{color: '#d0632a', fontWeight: 400}}>
+            ALQUILER DE <strong style={{fontWeight: 800}}>DISFRACES HINCHABLES</strong> EN VALENCIA
+          </h1>
           
           <div className="space-y-8 text-gray-700">
-            <h3 className="text-xl font-semibold mb-2" style={{color: '#1A1A1A'}}>❓ ¿Qué es Abrazo Gigante y cómo puedo sorprender a mis invitados en Valencia?</h3>
-            <p>¡Somos tu aliado secreto para crear momentos inolvidables! 🥳 Ofrecemos el mejor alquiler de disfraces hinchables en Valencia y Sagunto. Nuestros personajes gigantes, divertidos y super-abrazables, hacen reír a niños y adultos.</p>
-            <p>Son la opción perfecta para dar un subidón de energía en:</p>
-            <ul className="space-y-2 ml-4">
-              <li>✨ Cumpleaños (infantiles y de adultos)</li>
-              <li>✨ Bodas, comuniones y celebraciones familiares</li>
-              <li>✨ Pedidas de mano y sorpresas románticas</li>
-              <li>✨ Eventos corporativos, aperturas de tiendas y fiestas de empresa</li>
-              <li>✨ Sesiones de fotos, Reels de Instagram, TikToks y flashmobs 📸</li>
-            </ul>
+            <div>
+              <h3 className="text-xl font-semibold mb-2" style={{color: '#1A1A1A'}}>❓ ¿Qué es Abrazo Gigante y cómo puedo sorprender a mis invitados en Valencia?</h3>
+              <div className="pl-6 space-y-3">
+                <p>¡Somos tu aliado secreto para crear momentos inolvidables! 🥳 Ofrecemos el mejor alquiler de disfraces hinchables en Valencia y Sagunto. Nuestros personajes gigantes, divertidos y super-abrazables, hacen reír a niños y adultos.</p>
+                <p>Son la opción perfecta para dar un subidón de energía en:</p>
+                <ul className="space-y-2 ml-4">
+                  <li>✨ Cumpleaños (infantiles y de adultos)</li>
+                  <li>✨ Bodas, comuniones y celebraciones familiares</li>
+                  <li>✨ Pedidas de mano y sorpresas románticas</li>
+                  <li>✨ Eventos corporativos, aperturas de tiendas y fiestas de empresa</li>
+                  <li>✨ Sesiones de fotos, Reels de Instagram, TikToks y flashmobs 📸</li>
+                </ul>
+              </div>
+            </div>
 
             <div className="space-y-6">
               <div>
                 <h3 className="text-xl font-semibold mb-2" style={{color: '#1A1A1A'}}>❓ ¿Cómo funciona el alquiler y cómo se inflan los disfraces?</h3>
-                <p>¡Es un proceso facilísimo y rápido! 🎈</p>
-                <p><strong>Reserva:</strong> Eliges tu personaje favorito en nuestra web e indicas las fechas que necesitas.</p>
-                <p><strong>Preparación:</strong> Te entregamos el disfraz listo para usar, junto con un ventilador integrado. Las pilas o batería externa no están incluidas en el precio, pero puedes adquirirlas fácilmente en cualquier supermercado o tienda.</p>
-                <p><strong>¡A disfrutar!</strong> El disfraz se infla en un momento, es muy cómodo de llevar, permite bailar, saltar y, por supuesto, ¡dar abrazos gigantes! 🤗</p>
-                <p><strong>Devolución:</strong> Una vez terminado el periodo de alquiler, nos devuelves el equipo en el punto acordado.</p>
+                <div className="pl-6 space-y-3">
+                  <p>¡Es un proceso facilísimo y rápido! 🎈</p>
+                  <p><strong>Reserva:</strong> Eliges tu personaje favorito en nuestra web e indicas las fechas que necesitas.</p>
+                  <p><strong>Preparación:</strong> Te entregamos el disfraz listo para usar, junto con un ventilador integrado. Las pilas o batería externa no están incluidas en el precio, pero puedes adquirirlas fácilmente en cualquier supermercado o tienda.</p>
+                  <p><strong>¡A disfrutar!</strong> El disfraz se infla en un momento, es muy cómodo de llevar, permite bailar, saltar y, por supuesto, ¡dar abrazos gigantes! 🤗</p>
+                  <p><strong>Devolución:</strong> Una vez terminado el periodo de alquiler, nos devuelves el equipo en el punto acordado.</p>
+                </div>
               </div>
 
               <div>
                 <h3 className="text-xl font-semibold mb-2" style={{color: '#1A1A1A'}}>❓ ¿Qué zonas cubrís y cómo se realiza la entrega?</h3>
-                <p>Damos servicio de alquiler en Valencia capital, Sagunto, Puerto de Sagunto y localidades cercanas de la provincia. Al hacer tu reserva, puedes coordinar con nosotros la recogida local o consultar las opciones de entrega a domicilio para que no tengas que preocuparte por la logística el día de tu fiesta. 🚗</p>
+                <div className="pl-6 space-y-3">
+                  <p>Damos servicio de alquiler en Valencia capital, Sagunto, Puerto de Sagunto y localidades cercanas de la provincia. Al hacer tu reserva, puedes coordinar con nosotros la recogida local o consultar las opciones de entrega a domicilio para que no tengas que preocuparte por la logística el día de tu fiesta. 🚗</p>
+                </div>
               </div>
 
               <div>
                 <h3 className="text-xl font-semibold mb-2" style={{color: '#1A1A1A'}}>❓ ¿Qué tamaño tienen y qué espacio se necesita?</h3>
-                <p>¡Tienen una presencia imponente! Una vez inflados, los disfraces alcanzan aproximadamente 220–230 cm de altura 🦖. Por eso, para que te muevas con total comodidad, recomendamos usarlos en:</p>
-                <ul className="space-y-2 ml-4">
-                  <li>✅ Jardines, terrazas y zonas al aire libre</li>
-                  <li>✅ Parques</li>
-                  <li>✅ Salones grandes o locales con techos altos</li>
-                </ul>
-                <p className="mt-2">Nota: En espacios muy pequeños o con techos bajos, algunos modelos pueden resultar incómodos para moverse con soltura.</p>
+                <div className="pl-6 space-y-3">
+                  <p>¡Tienen una presencia imponente! Una vez inflados, los disfraces alcanzan aproximadamente 220–230 cm de altura 🦖. Por eso, para que te muevas con total comodidad, recomendamos usarlos en:</p>
+                  <ul className="space-y-2 ml-4">
+                    <li>✅ Jardines, terrazas y zonas al aire libre</li>
+                    <li>✅ Parques</li>
+                    <li>✅ Salones grandes o locales con techos altos</li>
+                  </ul>
+                  <p className="mt-2">Nota: En espacios muy pequeños o con techos bajos, algunos modelos pueden resultar incómodos para moverse con soltura.</p>
+                </div>
               </div>
 
               <div>
                 <h3 className="text-xl font-semibold mb-2" style={{color: '#1A1A1A'}}>❓ ¿Es necesario pagar una fianza y quién limpia el disfraz?</h3>
-                <p><strong>Limpieza:</strong> ¡Nosotros nos encargamos de todo! 🧼 Cada traje pasa por un estricto proceso de lavado y desinfección higiénica antes de entregarse. No tienes que limpiar nada antes de devolverlo.</p>
-                <p><strong>Fianza:</strong> Sí, solicitamos una pequeña fianza reembolsable al recoger el producto para garantizar el cuidado del motor y el tejido. En cuanto nos devuelvas el disfraz y comprobemos que todo está bien, te devolvemos el 100% de la fianza de forma inmediata 💰. En caso de desperfectos graves por negligencia, se descontarán de la fianza.</p>
+                <div className="pl-6 space-y-3">
+                  <p><strong>Limpieza:</strong> ¡Nosotros nos encargamos de todo! 🧼 Cada traje pasa por un estricto proceso de lavado y desinfección higiénica antes de entregarse. No tienes que limpiar nada antes de devolverlo.</p>
+                  <p><strong>Fianza:</strong> Sí, solicitamos una pequeña fianza reembolsable al recoger el producto para garantizar el cuidado del motor y el tejido. En cuanto nos devuelvas el disfraz y comprobemos que todo está bien, te devolvemos el 100% de la fianza de forma inmediata 💰. En caso de desperfectos graves por negligencia, se descontarán de la fianza.</p>
+                </div>
               </div>
             </div>
 
